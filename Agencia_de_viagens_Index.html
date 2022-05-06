@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"/>
+    <link href="home.css" rel="stylesheet" />
+    <title>Home</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-0">
+            <div class="container-fluid">
+                <a class="navbar-brand" >Drake's Travel'O Light</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home"
+                             asp-action="Index" href="Promocoes.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home"
+                                asp-action="Privacy">Destinos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home"
+                                asp-action="promocoes" href="Promocoes.html">Promoções</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home"
+                                asp-action="Privacy" href="Contato.html">Contato</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Clientes"
+                                asp-action="Index">Cadastro</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+
+        <div id="myCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="" aria-label="Slide 1">
+                </button>
+
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" class="">
+                </button>
+
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"
+                    class="active" aria-current="true">
+                </button>
+
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./Img/Dabai_02.jpg" class="d-block w-100" alt="Dubai">
+                    <div class="container">
+                        <div class="carousel-caption text-start">
+                            <h1>Explore Dubai</h1>
+                            <p>Have you ever see The biggest build in the world ?</p>
+                            <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./Img/Golden_gate.jpg" class="d-block w-100" alt="Golden Gate">
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h1>San Francisco</h1>
+                            <p>The iconic Golden Gate Bridge is waiting for you</p>
+                            <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./Img/greece.JPG" class="d-block w-100" alt="Greece ">
+                    <div class="container">
+                        <div class="carousel-caption text-start">
+                            <h1>Uncover the stories of Greece</h1>
+                            <p>Visit one of the oldest cities in the world</p>
+                            <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <!--COLUNAS DA PAGINAS -->
+
+        <div class="container marketing">
+
+            <!-- Three columns of text below the carousel -->
+            <div class="row">
+                <div class="col-lg-4 col-md-6 vv profile-circel-image-200">
+                    <img class="img-fluid rounded-circle" alt="airport_guy" id="img_1" src="Img/ticket.jpg" data-holder-rendered="true">
+
+                    <h5 class="mb-3 mt-5">We've got your back</h5>
+
+                    <p>Don't waste your time in line, take your VIP Ticket</p>
+
+                    <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+                </div>
+                <!-- /.col-lg-4 -->
+                <div class="col-lg-4 col-md-6 vv profile-circel-image-200">
+                    <img class="img-fluid rounded-circle" alt="airport_guy" id="img_1" src="Img/London_by_Night_200.jpg" data-holder-rendered="true">
+
+
+                    <h5 class="mb-3 mt-5">See a brand new world</h5>
+
+                    <p>Enjoy the cold weather of London and the famous Pub's</p>
+
+                    <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+                </div><!-- /.col-lg-4 -->
+                <div class="col-lg-4 col-md-6 vv profile-circel-image-200">
+                    <img class="img-fluid rounded-circle" alt="airport_guy" id="img_1" src="Img/losangeles-200x200.jpg" data-holder-rendered="true">
+
+
+                    <h5 class="mb-3 mt-5">Los Angeles -The city of Angels</h5>
+
+                    <p>Discover the 'Lux' of the city of angels</p>
+
+                    <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+                </div><!-- /.col-lg-4 -->
+            </div><!-- /.row -->
+
+            <hr class="featurette-divider">
+
+            <div class="row featurette">
+                <div class="col-md-7">
+                    <h2 class="featurette-heading">Different Cultures</h2>
+                    <p class="lead">Some great foods to eat.</p>
+                </div>
+                <div class="col-md-5" id="img_food">
+                    <img src="./Img/food_01.jpg" class="d-block w-100" alt="Eating food">
+                </div>
+            </div>
+            <!--Square adds-->
+            <hr class="featurette-divider">
+
+            <div class="row featurette">
+                <div class="col-md-7 order-md-2">
+                    <h2 class="featurette-heading">Meet new people</h2>
+                </div>
+                <div class="col-md-5 order-md-1">
+                    <img src="./Img/meet.jpg" id="img_meet" class="d-block w-100" alt="Eating food">
+                </div>
+            </div>
+            <hr class="featurette-divider">
+
+            <!-- /END THE FEATURETTES -->
+
+        </div><!-- /.container -->
+
+
+    </main>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
